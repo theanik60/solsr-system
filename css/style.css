@@ -1,0 +1,172 @@
+﻿*{box-sizing:border-box}
+
+.clr{clear:both;}
+
+body{
+		background-color:#e3ff00;
+		background-image:url(bg_main2.gif);
+		background-repeat:no-repeat;
+		background-size:1350px auto;
+		background-attachment:fixed;
+}
+
+.main-body{
+		width:966px;
+		margin:0 auto;
+		/* border:3px solid #00ff0f; */
+}
+
+.header, .banner .main-content{
+		width:960px;
+}
+
+.header {
+		height:200px;
+		background-color:#A0F796 ;
+		margin-left:auto;
+		margin-right:auto;
+		position:-webkit-sticky;/* safari */
+		position:sticky;
+		top:0;
+}
+
+.logo, .headig {
+		height:200px;
+		float:left;
+}
+
+
+.logo{
+		width:200px;
+		
+}
+
+.logo img {
+		width:100%;
+		height:100%;
+}
+
+
+}
+
+.headig {
+		width:760px;
+		
+}
+.headig h1{
+		font-size:36px;
+		font-family:Nirmala UI;
+		text-shadow:3px 3px 5px #C1FF46;
+		color:#fff;
+		padding-top:50px;
+		text-align:center;
+		padding-left:120px;
+}
+		
+		
+
+
+.banner{
+		height:300px;
+		
+}
+
+.banner img {
+		width:100%;
+		height:100%;
+
+}
+
+.sun{
+		height:250px;
+		/* padding:3px; */
+		float:center;
+		background-color:#000;
+		
+}
+
+.sun img {
+		width:30%;
+		height:100%;
+
+}
+.sun p {
+		float:right;
+		color:#00ff00;
+		background-color:#507030;
+		text-align:justify;
+		padding:0px 5px 0px 5px;
+} 
+
+.sun_name{
+		height:50px;
+		background-color:#919130;
+}
+
+.sun_name h3{
+		text-align:center;
+		color:#FEFFFE;
+		/* border-bottom:3px dotted #a6a6a6; */
+		font-size:35;
+		margin: 0px;
+}
+
+.col-1, .col-2, .col-3 {
+		width:320px;
+		float:left;
+		margin:0 auto;
+		padding: 0 10px;
+		background-color:#000;
+	
+}
+
+.col-1 h3, .col-2 h3, .col-3 h3{
+		text-align:center;
+		color:#e0f381;
+		border-bottom:3px dotted #a6a6a6;
+		font-size:21;
+		margin: 0px;
+		
+}
+
+
+.col-1 p, .col-2 p, .col-3 p{
+		text-align:justify;
+		font-size:15px;
+		color:#ffffff;
+		
+}
+
+.image {
+		width:250px;
+		height:250px;
+		padding:3px;
+		
+}
+
+.image img{
+		width:100%;
+		height:100%;
+}
+
+
+.col-1 span, .col-2 span, .col-3 span {
+		font-size:17px;
+		font-weight:bold;
+}
+
+.footer-item{
+		text-align:center;
+		font-size:20px;
+		color:#150791;
+		background-color:#f0f0f0;
+		height:50px;
+		margin:0;
+		padding-top:13px;
+		text-shadow: 10px 4px 7px #91840D;
+		/* margin-bottom:5px; */
+}
+
+.footer-item p{
+		margin:0;
+}
